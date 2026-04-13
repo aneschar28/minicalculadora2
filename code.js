@@ -90,11 +90,11 @@ function round2(n) {
 }
 
 function money(n) {
-    return `${round2(n).toFixed(2)}`;
+    return `${round2(n).toFixed(4)}`;
 }
 
 function percent(n) {
-    return round2(n);
+    return round2(n).toFixed(4);
 }
 
 function calcular2() {
