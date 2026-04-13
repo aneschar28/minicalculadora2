@@ -86,7 +86,7 @@ function pintarBarra(slider) {
 }
 
 function round2(n) {
-    return Math.round((Number(n));
+    return Math.round((Number(n)));
 }
 
 function money(n) {
